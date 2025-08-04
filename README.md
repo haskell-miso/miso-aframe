@@ -96,7 +96,7 @@ Ideally the entire [AFrame.io API](https://aframe.io/docs/) can be covered. Low-
   - [ ] [a-sphere](https://aframe.io/docs/1.7.0/primitives/a-sphere.html)
   - [ ] [a-tetrahedron](https://aframe.io/docs/1.7.0/primitives/a-tetrahedron.html)
   - [ ] [a-text](https://aframe.io/docs/1.7.0/primitives/a-text.html)
-  - [ ] [a-torusknot>](https://aframe.io/docs/1.7.0/primitives/a-torus-knot.html)
+  - [ ] [a-torus-knot](https://aframe.io/docs/1.7.0/primitives/a-torus-knot.html)
   - [ ] [a-torus](https://aframe.io/docs/1.7.0/primitives/a-torus.html)
   - [ ] [a-triangle](https://aframe.io/docs/1.7.0/primitives/a-triangle.html)
   - [ ] [a-video](https://aframe.io/docs/1.7.0/primitives/a-video.html)
