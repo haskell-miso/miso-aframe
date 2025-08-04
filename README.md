@@ -71,7 +71,7 @@ view_ () =
 
 ### Coverage
 
-Ideally the entire [aframe API](https://aframe.io/docs/) could be covered.
+Ideally the entire [AFrame.io API](https://aframe.io/docs/) can be covered. Low-hanging fruit here.
 
   - [ ] [a-box](https://aframe.io/docs/1.7.0/primitives/a-box.html)
   - [ ] [a-camera](https://aframe.io/docs/1.7.0/primitives/a-camera.html)
@@ -82,12 +82,12 @@ Ideally the entire [aframe API](https://aframe.io/docs/) could be covered.
   - [ ] [a-curvedimage](https://aframe.io/docs/1.7.0/primitives/a-curvedimage.html)
   - [ ] [a-cylinder](https://aframe.io/docs/1.7.0/primitives/a-cylinder.html)
   - [ ] [a-dodecahedron](https://aframe.io/docs/1.7.0/primitives/a-dodecahedron.html)
-  - [ ] [a-gltf-model>](https://aframe.io/docs/1.7.0/primitives/a-gltf-model.html)
+  - [ ] [a-gltf-model](https://aframe.io/docs/1.7.0/primitives/a-gltf-model.html)
   - [ ] [a-icosahedron](https://aframe.io/docs/1.7.0/primitives/a-icosahedron.html)
   - [ ] [a-image](https://aframe.io/docs/1.7.0/primitives/a-image.html)
   - [ ] [a-light](https://aframe.io/docs/1.7.0/primitives/a-light.html)
   - [ ] [a-link](https://aframe.io/docs/1.7.0/primitives/a-link.html)
-  - [ ] [a-objmodel>](https://aframe.io/docs/1.7.0/primitives/a-obj-model.html)
+  - [ ] [a-obj-model](https://aframe.io/docs/1.7.0/primitives/a-obj-model.html)
   - [ ] [a-octahedron](https://aframe.io/docs/1.7.0/primitives/a-octahedron.html)
   - [ ] [a-plane](https://aframe.io/docs/1.7.0/primitives/a-plane.html)
   - [ ] [a-ring](https://aframe.io/docs/1.7.0/primitives/a-ring.html)
