@@ -6,6 +6,7 @@
 module Main where
 -----------------------------------------------------------------------------
 import Miso
+import Miso.Style
 import Miso.String (MisoString)
 -----------------------------------------------------------------------------
 #ifdef WASM
@@ -80,8 +81,8 @@ asky_ = node HTML "a-sky"
 position_ :: MisoString -> Attribute action
 position_ = textProp "position"
 -----------------------------------------------------------------------------
-color_ :: MisoString -> Attribute action
-color_ = textProp "color"
+color_ :: Color -> Attribute action
+color_ = textProp "color" . renderColor
 -----------------------------------------------------------------------------
 rotation_ :: MisoString -> Attribute action
 rotation_ = textProp "rotation"
