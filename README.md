@@ -1,6 +1,8 @@
 :ramen: 🎮 miso-aframe 
 ====================
 
+<img width="25%" height="25%" alt="image" src="https://github.com/user-attachments/assets/57211547-97ca-41c3-b057-44ff90cf6008" />
+
 Integration of [aframe.io](https://aframe.io) with [miso](https://haskell-miso.org)
 
 This repository serves as an example integration between miso and aframe, we can expand this to cover the entire library. aframe.io fits nicely with miso's virtual DOM abstraction.
