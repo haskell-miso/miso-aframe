@@ -82,7 +82,7 @@ Ideally the entire [aframe API](https://aframe.io/docs/) could be covered.
   - [ ] [a-curvedimage](https://aframe.io/docs/1.7.0/primitives/a-curvedimage.html)
   - [ ] [a-cylinder](https://aframe.io/docs/1.7.0/primitives/a-cylinder.html)
   - [ ] [a-dodecahedron](https://aframe.io/docs/1.7.0/primitives/a-dodecahedron.html)
-  - [ ] [a-gltfmodel>](https://aframe.io/docs/1.7.0/primitives/a-gltf.html)
+  - [ ] [a-gltf-model>](https://aframe.io/docs/1.7.0/primitives/a-gltf-model.html)
   - [ ] [a-icosahedron](https://aframe.io/docs/1.7.0/primitives/a-icosahedron.html)
   - [ ] [a-image](https://aframe.io/docs/1.7.0/primitives/a-image.html)
   - [ ] [a-light](https://aframe.io/docs/1.7.0/primitives/a-light.html)
