@@ -30,7 +30,7 @@ app = (component () noop view_)
   { events = pointerEvents
 #ifndef WASM
   , scripts = [ Src "https://aframe.io/releases/1.7.0/aframe.min.js" ]
-#endif WASM
+#endif
   }
 -----------------------------------------------------------------------------
 view_ :: () -> View () ()
