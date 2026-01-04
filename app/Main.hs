@@ -6,8 +6,8 @@
 module Main where
 -----------------------------------------------------------------------------
 import Miso
-import Miso.Style
-import Miso.String (MisoString)
+import Miso.Html.Property
+import Miso.CSS
 -----------------------------------------------------------------------------
 #ifdef WASM
 foreign export javascript "hs_start" main :: IO ()
@@ -21,7 +21,7 @@ app = (component () noop view_)
   { events = pointerEvents
 #ifndef WASM
   , scripts = [ Src "https://aframe.io/releases/1.7.0/aframe.min.js" ]
-#endif WASM
+#endif
   }
 -----------------------------------------------------------------------------
 view_ :: () -> View () ()
