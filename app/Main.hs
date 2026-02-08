@@ -14,7 +14,7 @@ foreign export javascript "hs_start" main :: IO ()
 #endif
 -----------------------------------------------------------------------------
 main :: IO ()
-main = run (startApp app)
+main = startApp app
 -----------------------------------------------------------------------------
 app :: App () ()
 app = (component () noop view_)
