@@ -23,15 +23,14 @@ foreign export javascript "hs_start" main :: IO ()
 #endif
 -----------------------------------------------------------------------------
 main :: IO ()
-main = run (startApp app)
+main = startApp pointerEvents app
 -----------------------------------------------------------------------------
 app :: App () ()
 app = (component () noop view_)
-  { events = pointerEvents
 #ifndef WASM
-  , scripts = [ Src "https://aframe.io/releases/1.7.0/aframe.min.js" ]
-#endif
+  { scripts = [ Src "https://aframe.io/releases/1.7.0/aframe.min.js" ]
   }
+#endif
 -----------------------------------------------------------------------------
 view_ :: () -> View () ()
 view_ () =
